@@ -1,0 +1,2 @@
+# amazon-price-alert
+Amazon price scraping alert with headless Chrome browsedriver. Amazon.com recently prevented standard "http get" scraping, however simulating a real browser session with a headless driver still works. Once the chrome driver is up, the script dumps everything on a beatifulsoup object, so that the relevant bits can be extracted. If price is above/below a certain threshold, an email alert is also produced.
